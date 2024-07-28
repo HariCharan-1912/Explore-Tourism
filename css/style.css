@@ -1,0 +1,233 @@
+/* Modern Hunza Tourist Website Template */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+body {
+    background: #f5f7fa;
+    font-size: 16px;
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+#header {
+    background: #283e4a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header .logo a {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#header ul {
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#header ul li {
+    margin: 0 15px;
+}
+
+#header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#header ul li a:hover {
+    color: #adb5bd;
+}
+
+#header .article {
+    margin-top: 20px;
+    height: 500px; /* Adjust height as needed */
+    width: 100%; /* Ensure it takes the full width */
+    position: relative; /* Positioning context for the image */
+    overflow: hidden; /* Hide overflow if the image is larger */
+}
+
+#header .article img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+    border-radius: 8px;
+}
+
+#header .article h1 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 48px;
+    font-family: 'Lora', serif;
+    margin: 0;
+    color: #ffffff; /* Ensure text is readable over the image */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+#body {
+    max-width: 2000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#body ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#body ul li {
+    flex: 1 1 calc(25% - 20px);
+    background: #ffffff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#body ul li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#body ul li b {
+    display: block;
+    margin: 10px 0;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    color: #283e4a;
+}
+
+#body ul li p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.featured {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.featured h2 {
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    margin: 0 0 20px;
+}
+
+.featured img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.featured h3 {
+    font-size: 28px;
+    font-family: 'Lora', serif;
+    margin: 20px 0 10px;
+}
+
+.featured p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.article, .newsletter {
+    flex: 1 1 calc(50% - 20px);
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.article h2, .newsletter h2 {
+    font-size: 28px;
+    font-family: 'Lora', serif;
+    margin: 0 0 20px;
+}
+
+.article p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.article a:hover {
+    color: #0056b3;
+}
+
+.newsletter img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+#footer {
+    background: #283e4a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer .connect {
+    margin: 20px 0;
+}
+
+#footer .connect a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#footer .connect a:hover {
+    color: #adb5bd;
+}
+
+#footer p {
+    margin: 0;
+}
